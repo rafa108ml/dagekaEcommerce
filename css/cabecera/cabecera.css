@@ -1,0 +1,8 @@
+.cabecera{
+    display: flex;
+    align-items: center;
+    background-image: url('../../assets/sakuraBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

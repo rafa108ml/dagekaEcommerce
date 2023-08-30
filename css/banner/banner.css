@@ -1,0 +1,29 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image:url('../../assets/banner_image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 20vw;
+    width: 100%;
+}
+
+.banner__title{
+    margin-top: 2vw;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 450;
+    margin-left: var(--margin-left-ws) ;
+    color: var(--text-contrast-white);
+    font-size: 5vw;
+    
+}
+
+.banner__description{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    margin-left: var(--margin-left-ws);
+    color: var(--text-contrast-white);
+    font-size: 3vw;
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!--este meta parametro nos permite manipular la pantalla para responsividad-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--este css nos resetea los parametros de html por default-->
+    <link href="../css/reset.css" rel="stylesheet"/>
+
+
+    
+    <!--este css contiene las variables generales-->
+    <link href="../css/variables.css" rel="stylesheet"/>
+    <title>dagekaStore</title>
+
+    <!-- links de los fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:ital,wght@0,400;0,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,300;1,700&display=swap" rel="stylesheet">
+
+    <!-- links de los google icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!--este si lo hice yo para los botones-->
+    <link rel="stylesheet" href="../css/buttons.css">
+    <link rel="stylesheet" href="../css/icons.css">
+
+
+    <!--link de las variables-->
+    <link  href="../css/variables.css" rel="stylesheet">
+
+    <!-- csss de la cabecera-->
+    <link href="../css/cabecera/logo.css" rel="stylesheet">
+    <link href="../css/cabecera/cabecera.css" rel="stylesheet">
+    <link href="../css/cabecera/list.css" rel="stylesheet">
+
+        <!-- css de la search bar-->
+        <link href="../css/cabecera/searchbar.css" rel="stylesheet"> 
+
+    <!-- link de la imagen del banner-->
+    <link href="../css/banner/banner.css" rel="stylesheet">    
+
+    <!-- links css para el form-->
+   <link href="../css/form/form.css" rel="stylesheet">
+
+
+   <!-- link del footer-->
+   <link href="../css/footer/footer.css" rel="stylesheet">
+
+</head>
+<body class="body__login">
+    <header class="cabecera">
+        <img src="../assets/logo.png" alt="logo marca" class="logo" data-logo>
+            <nav class="top__menu-container">
+                <ul class="top__menu-list">
+                    <input class="top__menu-search"type="search" id="search-bar" placeholder="que buscas?">
+                        <!--vamos a la libreria web de iconos de google y le decimos cual estamos importando en el nombre-->
+                        <button class="icons__button">
+                            <i class="material-symbols-outlined icons__search" >search</i>
+                        </button>
+
+                        <button class="login__button" data-login>login</button>
+                </ul>
+            </nav>
+    </header>
+
+    <form class="login__form-container" data-form>
+        <h2 class="form__titulo" > Iniciar seccion</h2>
+        <input class="form__input" placeholder="Escribe tu usuario">
+        <input class="form__input" placeholder="Escribe tu contraseña">
+    
+        <button  class="button__general">ingresar</button>
+    </form>
+
+    <footer class="footer__container">
+        <img src="../assets/logo.png" alt="logo marca" class="logo" >
+        <nav class="footer__nav-list">
+            <ul class="footer__ul">
+                <li class="footer__ul-li">Quienes somos</li>
+                <li class="footer__ul-li">Politica de fidelidad</li>
+                <li class="footer__ul-li">Politica de privacidad</li>
+                <li class="footer__ul-li">Nuestras tiendas</li>
+                <li class="footer__ul-li">Quieres ser franquiciado?</li>
+                
+            </ul>
+        </nav>
+
+        <form class="form__footer-container">
+            <h2 class="form__footer-titulo" > Hable con nosotros</h2>
+            <input class="form__footer-input" placeholder="Nombre">
+            <input class="form__footer-input" placeholder="Escribe tu mensaje">
+            <button type="submit" class="enviarmsm__button">Enviar menaje</button>
+        </form>
+
+        <h2 class="footer__desarrolladopor">Desarrollado por Rafael Arteaga <br> 2023</h2>
+        
+
+    </footer>
+
+</body>
+<script type="module" src="../jscripts/addproduct.js"></script>
+
+<!--scripts que genera firebase que se deben traer para la conexion-->
+
+<script type="module" src="https://www.gstatic.com/firebasejs/10.3.0/firebase-app-compat.js"></script>
+<script type="module" src="https://www.gstatic.com/firebasejs/10.3.0/firebase-firestore-compat.js"></script>
+
+<!-- scripts de la config de la base de datos-->
+<script type="module" src="/jscripts/configuracion.js"></script>
+<script type="module" src="/jscripts/leer.js"></script>
+
+</html>

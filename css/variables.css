@@ -1,0 +1,14 @@
+:root{
+    --gris-superdim: #c4c4c4;
+    --gris-subtitulos: #999999;
+    --negro-subtitulos: #3c3c3c;
+    --dark-banner-color: rgb(21, 21, 21);
+    --text-contrast-white: #e2e2e2;
+    --blue-click: #49ffff;
+    --blue-serious: #4967ff;
+    --roboto:  font-family: 'Roboto', sans-serif;
+    --dark-noire: #141414;
+    --margin-left-ws: 10vw;
+    --form-fields-width: 50%;
+    --footer-background: #ffecf6;
+}

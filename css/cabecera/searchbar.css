@@ -1,0 +1,14 @@
+.top__menu-search{
+    display: flex;
+    padding: 1rem;
+    width: calc(15vw);
+    height: 2.2rem;
+    border-radius: 0.9rem;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    outline-color: aqua;
+    border-color: var(--gris-superdim);
+    border-style: none;
+}
